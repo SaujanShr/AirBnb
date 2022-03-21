@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="819.0" stylesheets="@boroughButton.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="Enfield" layoutX="395.0" layoutY="23.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="ENFI" />
+      <Button id="Waltham Forest" layoutX="443.0" layoutY="82.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="WALT" />
+      <Button id="Haringey" layoutX="347.0" layoutY="82.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HRGY" />
+      <Button id="Islington" layoutX="395.0" layoutY="140.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="ISLI" />
+      <Button id="Tower Hamlets" layoutX="443.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="TOWH" />
+      <Button id="Westminster" layoutX="347.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="WSTM" />
+      <Button id="City of London" layoutX="394.0" layoutY="258.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="CITY" />
+      <Button id="Southwark" layoutX="442.0" layoutY="317.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="STHW" />
+      <Button id="Lambeth" layoutX="346.0" layoutY="317.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="LAMB" />
+      <Button id="Newham" layoutX="538.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="NEWH" />
+      <Button id="Bexley" layoutX="586.0" layoutY="258.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="BEXL" />
+      <Button id="Greenwich" layoutX="490.0" layoutY="258.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="GWCH" />
+      <Button id="Hackney" layoutX="491.0" layoutY="140.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HACK" />
+      <Button id="Barking and Dagenham" layoutX="634.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="BARK" />
+      <Button id="Brent" layoutX="203.0" layoutY="140.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="BREN" />
+      <Button id="Barnet" layoutX="251.0" layoutY="82.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="BARN" />
+      <Button id="Camden" layoutX="299.0" layoutY="141.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="CAMD" />
+      <Button id="Hillingdon" layoutX="59.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HILL" />
+      <Button id="Harrow" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HRRW" />
+      <Button id="Ealing" layoutX="155.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="EALI" />
+      <Button id="Kensington and Chelsea" layoutX="251.0" layoutY="199.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="KENS" />
+      <Button id="Wandsworth" layoutX="298.0" layoutY="258.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="WAND" />
+      <Button id="Hammersmith and Fulham" layoutX="202.0" layoutY="258.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HAMM" />
+      <Button id="Hounslow" layoutX="106.0" layoutY="258.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HOUN" />
+      <Button id="Merton" layoutX="250.0" layoutY="317.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="MERT" />
+      <Button id="Richmond upon Thames" layoutX="154.0" layoutY="317.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="RICH" />
+      <Button id="Lewisham" layoutX="538.0" layoutY="317.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="LEWS" />
+      <Button id="Croydon" layoutX="393.0" layoutY="376.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="CROY" />
+      <Button id="Sutton" layoutX="298.0" layoutY="376.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="SUTT" />
+      <Button id="Kingston upon Thames" layoutX="202.0" layoutY="376.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="KING" />
+      <Button id="Bromley" layoutX="489.0" layoutY="376.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="BROM" />
+      <Button id="Redbridge" layoutX="587.0" layoutY="140.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="REDB" />
+      <Button id="Havering" layoutX="683.0" layoutY="141.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="91.0" text="HAVE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,125 @@
+
+/**
+ * Write a description of class AirbnbViewer here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+
+import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.stage.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
+import javafx.scene.Scene;
+import java.util.ArrayList;
+
+
+public class AirbnbViewer extends Application
+{
+    private Stage stage;
+    private ArrayList<AirbnbListing> airbnbData;
+    private ArrayList<Double> priceRange;
+    
+    public AirbnbViewer() {
+        AirbnbDataLoader dataLoader = new AirbnbDataLoader();
+        airbnbData = dataLoader.load();
+        priceRange = new ArrayList<Double>();
+        
+        //initialises the range of prices
+        for (double i = 0; i <= 2000; i+= 100) {
+            priceRange.add(i);
+        }
+    }
+    
+    @Override
+    public void start(Stage stage) {
+        this.stage = stage;
+        
+        VBox root = new VBox();
+        makeTopPane(root);
+        makeContentPane(root);
+        makeBottomPane(root);
+        root.getStyleClass().add("root");
+        
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("mystyle.css");
+        
+        stage.setTitle("ImageViewer");
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    /**
+     * Adds top pane to the window.
+     */
+    private void makeTopPane(Pane parent) {
+        ObservableList<Double> observablePriceRange = FXCollections.observableArrayList(priceRange);
+        
+        //adds top pane to the window
+        HBox topBox = new HBox();
+        topBox.setId("top");
+        parent.getChildren().add(topBox);
+        topBox.getStyleClass().add("topbox");
+        
+        //seperates the top pane from the content pane
+        Separator separator = new Separator();
+        parent.getChildren().add(separator);
+        
+        //spacer pushes the components to the right
+        Pane spacer = new Pane();
+        HBox.setHgrow(spacer, Priority.ALWAYS);
+        
+        //adds the labels and drop-down boxes to the top
+        Label fromLabel = new Label("from: ");
+        fromLabel.getStyleClass().add("label");
+        ComboBox fromBox = new ComboBox(observablePriceRange);
+        fromBox.getStyleClass().add("combobox");
+        Label toLabel = new Label("  to: ");
+        toLabel.getStyleClass().add("label");
+        ComboBox toBox = new ComboBox(observablePriceRange);
+        toBox.getStyleClass().add("combobox");
+        
+        topBox.getChildren().addAll(spacer, fromLabel, fromBox, toLabel, toBox);
+    }
+    
+    /**
+     * Adds content pane to the window.
+     */
+    private void makeContentPane(Pane parent) {
+        //adds content pane to the window
+        Pane content = new BorderPane();
+        content.setId("content");
+        parent.getChildren().add(content);
+        ((VBox) parent).setVgrow(content, Priority.ALWAYS);
+        content.getStyleClass().add("content");
+    }
+    
+    /**
+     * Adds bottom pane to the window.
+     */
+    private void makeBottomPane(Pane parent) {
+        //seperates the bottom pane from the content pane
+        Separator separator = new Separator();
+        parent.getChildren().add(separator);
+        
+        //adds bottom pane to the window
+        HBox bottomBox = new HBox();
+        bottomBox.setId("bottom");
+        parent.getChildren().add(bottomBox);
+        bottomBox.getStyleClass().add("bottombox");
+        
+        //spacer pushes the components to the left/right
+        Pane spacer = new Pane();
+        HBox.setHgrow(spacer, Priority.ALWAYS);
+        
+        //adds the left and right buttons to the bottom
+        Button leftButton = new Button(" < ");
+        leftButton.getStyleClass().add("button");
+        Button rightButton = new Button(" > ");
+        rightButton.getStyleClass().add("button");
+        
+        bottomBox.getChildren().addAll(leftButton, spacer, rightButton);
+    }
+}

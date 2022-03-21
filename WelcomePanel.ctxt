@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=WelcomePanel
+comment1.params=
+comment1.target=WelcomePanel()
+comment2.params=
+comment2.target=javafx.scene.layout.Pane\ getPane()
+comment3.params=
+comment3.target=void\ setWelcomePane()
+comment4.params=
+comment4.target=void\ updatePriceDescription()
+comment5.params=minPrice
+comment5.target=void\ fromBoxAction(double)
+comment6.params=maxPrice
+comment6.target=void\ toBoxAction(double)
+comment7.params=
+comment7.target=void\ reset()
+numComments=8

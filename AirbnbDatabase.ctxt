@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=AirbnbDatabase
+comment1.params=
+comment1.target=AirbnbDatabase()
+comment1.text=\r\n\ Initialise\ the\ database\ of\ airbnb\ listings.\r\n
+comment2.params=
+comment2.target=int[]\ getPriceRangeLimits()
+comment2.text=\r\n\ Get\ an\ array\ containing\ the\ minimum\ and\ maximum\ prices.\r\n\ @return\ priceRange\ A\ 2\ value\ array\ containing\ the\ minPrice\ and\ maxPrice.\r\n
+comment3.params=
+comment3.target=java.util.HashMap\ getAirbnbData()
+comment3.text=\r\n\ Get\ the\ raw\ main\ airbnb\ database.\r\n\ @return\ airbnbData\ The\ main\ airbnb\ database.\r\n
+comment4.params=minPrice\ maxPrice
+comment4.target=java.util.ArrayList\ getAirbnbData(int,\ int)
+comment4.text=\r\n\ Get\ all\ the\ properties\ in\ the\ main\ airbnb\ database\ within\ a\ certain\ price\ range.\r\n\ @return\ \r\n
+comment5.params=borough
+comment5.target=java.util.ArrayList\ getNeighbourhoodData(java.lang.String)
+comment5.text=\r\n\ Get\ all\ the\ properties\ from\ a\ certain\ borough.\r\n\ @return\r\n
+comment6.params=borough\ minPrice\ maxPrice
+comment6.target=java.util.ArrayList\ getNeighbourhoodData(java.lang.String,\ int,\ int)
+comment6.text=\r\n\ Get\ all\ the\ propertyies\ from\ a\ certain\ borough\ within\ a\ certain\ price\ range.\r\n\ @return\r\n
+numComments=7

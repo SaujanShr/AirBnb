@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PropertyViewer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PropertyViewer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=PropertyViewer()
+comment2.params=borough\ boroughList\ minPrice\ maxPrice
+comment2.target=void\ startListWindow(java.lang.String,\ java.util.ArrayList,\ double,\ double)
+comment3.params=boroughList\ minPrice\ maxPrice
+comment3.target=java.util.ArrayList\ resizedBoroughList(java.util.ArrayList,\ double,\ double)
+comment4.params=parent
+comment4.target=void\ makeMenu(javafx.scene.layout.Pane)
+comment5.params=parent
+comment5.target=void\ makeList(javafx.scene.layout.Pane)
+numComments=6

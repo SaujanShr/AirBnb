@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=MapPanel
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MapPanel\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MapPanel()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MapPanel\r\n
+comment2.params=
+comment2.target=javafx.scene.layout.Pane\ getPane()
+comment3.params=
+comment3.target=void\ setMapPane()
+comment4.params=
+comment4.target=void\ generateBoroughButtons()
+comment5.params=button\ airbnbData
+comment5.target=void\ setButtonColour(javafx.scene.control.Button,\ java.util.ArrayList)
+comment6.params=borough
+comment6.target=void\ buttonAction(java.lang.String)
+comment7.params=minPrice
+comment7.target=void\ fromBoxAction(double)
+comment8.params=maxPrice
+comment8.target=void\ toBoxAction(double)
+comment9.params=
+comment9.target=void\ reset()
+numComments=10

@@ -1,0 +1,21 @@
+.label {
+    -fx-padding: 6;
+}
+.combobox {
+    -fx-pref-height: 10;
+    -fx-pref-width: 90;
+}
+.button {
+    -fx-padding: 5;
+    -fx-pref-width: 30;
+}
+.topbox {
+    -fx-padding: 5;
+}
+.contentpane {
+    -fx-pref-height: 480;
+    -fx-pref-width: 900;
+}
+.bottombox {
+    -fx-padding: 5;
+}
